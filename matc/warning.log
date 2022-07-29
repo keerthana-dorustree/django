@@ -1,0 +1,1072 @@
+Not Found: /
+Homepage was accessed at 2022-07-25 10:38:01.973517 hours!
+Homepage was accessed at 2022-07-25 10:38:02.891915 hours!
+Homepage was accessed at 2022-07-25 10:38:09.050684 hours!
+Login was accessed at 2022-07-25 10:40:57.649766 hours!
+create employee at 2022-07-25 10:40:57.650379 hours!
+create address at 2022-07-25 10:40:57.650750 hours!
+create person at 2022-07-25 10:40:57.650970 hours!
+Login was accessed at 2022-07-25 10:40:58.259317 hours!
+create employee at 2022-07-25 10:40:58.260910 hours!
+create address at 2022-07-25 10:40:58.261725 hours!
+create person at 2022-07-25 10:40:58.262199 hours!
+Login was accessed at 2022-07-25 10:41:18.748917 hours!
+create employee at 2022-07-25 10:41:18.749299 hours!
+create address at 2022-07-25 10:41:18.749513 hours!
+create person at 2022-07-25 10:41:18.749640 hours!
+Get all employee at 2022-07-25 10:41:18.749794 hours!
+Login was accessed at 2022-07-25 10:41:19.807756 hours!
+create employee at 2022-07-25 10:41:19.809316 hours!
+create address at 2022-07-25 10:41:19.810093 hours!
+create person at 2022-07-25 10:41:19.810489 hours!
+Get all employee at 2022-07-25 10:41:19.811037 hours!
+Login was accessed at 2022-07-25 10:41:47.750871 hours!
+create employee at 2022-07-25 10:41:47.751419 hours!
+create address at 2022-07-25 10:41:47.751750 hours!
+create person at 2022-07-25 10:41:47.751967 hours!
+Get all employee at 2022-07-25 10:41:47.752244 hours!
+update user at 2022-07-25 10:41:47.752342 hours!
+Login was accessed at 2022-07-25 10:41:49.206233 hours!
+create employee at 2022-07-25 10:41:49.207616 hours!
+create address at 2022-07-25 10:41:49.208390 hours!
+create person at 2022-07-25 10:41:49.208810 hours!
+Get all employee at 2022-07-25 10:41:49.209541 hours!
+update user at 2022-07-25 10:41:49.209813 hours!
+Login was accessed at 2022-07-25 10:53:28.494233 hours!
+create employee at 2022-07-25 10:53:28.494717 hours!
+create address at 2022-07-25 10:53:28.495213 hours!
+create person at 2022-07-25 10:53:28.495467 hours!
+Get all employee at 2022-07-25 10:53:28.495883 hours!
+update user at 2022-07-25 10:53:28.496028 hours!
+Login was accessed at 2022-07-25 10:53:29.683630 hours!
+create employee at 2022-07-25 10:53:29.684811 hours!
+create address at 2022-07-25 10:53:29.685526 hours!
+create person at 2022-07-25 10:53:29.685870 hours!
+Get all employee at 2022-07-25 10:53:29.686320 hours!
+update user at 2022-07-25 10:53:29.686464 hours!
+Login was accessed at 2022-07-25 10:57:48.021526 hours!
+create employee at 2022-07-25 10:57:48.022136 hours!
+create address at 2022-07-25 10:57:48.022620 hours!
+create person at 2022-07-25 10:57:48.022868 hours!
+Get all employee at 2022-07-25 10:57:48.023129 hours!
+update user at 2022-07-25 10:57:48.023225 hours!
+Login was accessed at 2022-07-25 10:57:49.045525 hours!
+create employee at 2022-07-25 10:57:49.047134 hours!
+create address at 2022-07-25 10:57:49.048075 hours!
+create person at 2022-07-25 10:57:49.048739 hours!
+Get all employee at 2022-07-25 10:57:49.049522 hours!
+update user at 2022-07-25 10:57:49.049815 hours!
+Internal Server Error: /api/getallemp
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 146, in get_queryset
+    page = pagination.paginate_queryset(queryset=response, request=request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 196, in paginate_queryset
+    page_size = self.get_page_size(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 262, in get_page_size
+    request.query_params[self.page_size_query_param],
+AttributeError: module 'rest_framework.request' has no attribute 'query_params'
+Login was accessed at 2022-07-25 11:44:07.720001 hours!
+create employee at 2022-07-25 11:44:07.720364 hours!
+create address at 2022-07-25 11:44:07.720664 hours!
+create person at 2022-07-25 11:44:07.720803 hours!
+Get all employee at 2022-07-25 11:44:07.720959 hours!
+update user at 2022-07-25 11:44:07.721025 hours!
+Login was accessed at 2022-07-25 11:44:09.031200 hours!
+create employee at 2022-07-25 11:44:09.032637 hours!
+create address at 2022-07-25 11:44:09.033356 hours!
+create person at 2022-07-25 11:44:09.033781 hours!
+Get all employee at 2022-07-25 11:44:09.034334 hours!
+update user at 2022-07-25 11:44:09.034621 hours!
+Login was accessed at 2022-07-25 11:44:23.033665 hours!
+create employee at 2022-07-25 11:44:23.034846 hours!
+create address at 2022-07-25 11:44:23.035395 hours!
+create person at 2022-07-25 11:44:23.035753 hours!
+Get all employee at 2022-07-25 11:44:23.036236 hours!
+update user at 2022-07-25 11:44:23.036435 hours!
+Login was accessed at 2022-07-25 11:44:51.271726 hours!
+create employee at 2022-07-25 11:44:51.272321 hours!
+create address at 2022-07-25 11:44:51.272865 hours!
+create person at 2022-07-25 11:44:51.273177 hours!
+Get all employee at 2022-07-25 11:44:51.273516 hours!
+update user at 2022-07-25 11:44:51.273659 hours!
+Login was accessed at 2022-07-25 11:44:53.011537 hours!
+create employee at 2022-07-25 11:44:53.012753 hours!
+create address at 2022-07-25 11:44:53.013304 hours!
+create person at 2022-07-25 11:44:53.013614 hours!
+Get all employee at 2022-07-25 11:44:53.014061 hours!
+update user at 2022-07-25 11:44:53.014204 hours!
+Internal Server Error: /api/getallemp
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 146, in get_queryset
+    page = pagination.paginate_queryset(queryset=users, request=request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 196, in paginate_queryset
+    page_size = self.get_page_size(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 262, in get_page_size
+    request.query_params[self.page_size_query_param],
+AttributeError: module 'rest_framework.request' has no attribute 'query_params'
+Internal Server Error: /api/getallemp
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 146, in get_queryset
+    page = pagination.paginate_queryset(queryset=users, request=request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 196, in paginate_queryset
+    page_size = self.get_page_size(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 262, in get_page_size
+    request.query_params[self.page_size_query_param],
+AttributeError: module 'rest_framework.request' has no attribute 'query_params'
+Login was accessed at 2022-07-25 11:46:27.659109 hours!
+create employee at 2022-07-25 11:46:27.660523 hours!
+create address at 2022-07-25 11:46:27.661321 hours!
+create person at 2022-07-25 11:46:27.661766 hours!
+Get all employee at 2022-07-25 11:46:27.662285 hours!
+update user at 2022-07-25 11:46:27.662459 hours!
+Internal Server Error: /api/getallemp
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 146, in get_queryset
+    page = pagination.paginate_queryset(queryset=users, request=request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 196, in paginate_queryset
+    page_size = self.get_page_size(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 262, in get_page_size
+    request.query_params[self.page_size_query_param],
+AttributeError: module 'rest_framework.request' has no attribute 'query_params'
+Internal Server Error: /api/getallemp
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 146, in get_queryset
+    page = pagination.paginate_queryset(queryset=users, request=request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 196, in paginate_queryset
+    page_size = self.get_page_size(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 262, in get_page_size
+    request.query_params[self.page_size_query_param],
+AttributeError: module 'rest_framework.request' has no attribute 'query_params'
+Internal Server Error: /api/getallemp
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 146, in get_queryset
+    page = pagination.paginate_queryset(queryset=users, request=request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 196, in paginate_queryset
+    page_size = self.get_page_size(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 262, in get_page_size
+    request.query_params[self.page_size_query_param],
+AttributeError: module 'rest_framework.request' has no attribute 'query_params'
+Login was accessed at 2022-07-25 11:48:33.061876 hours!
+create employee at 2022-07-25 11:48:33.062281 hours!
+create address at 2022-07-25 11:48:33.062628 hours!
+create person at 2022-07-25 11:48:33.062788 hours!
+Get all employee at 2022-07-25 11:48:33.062950 hours!
+update user at 2022-07-25 11:48:33.063018 hours!
+Login was accessed at 2022-07-25 11:48:33.782980 hours!
+create employee at 2022-07-25 11:48:33.784200 hours!
+create address at 2022-07-25 11:48:33.784828 hours!
+create person at 2022-07-25 11:48:33.785272 hours!
+Get all employee at 2022-07-25 11:48:33.785732 hours!
+update user at 2022-07-25 11:48:33.785863 hours!
+Login was accessed at 2022-07-25 12:41:00.931830 hours!
+create employee at 2022-07-25 12:41:00.932337 hours!
+create address at 2022-07-25 12:41:00.932822 hours!
+create person at 2022-07-25 12:41:00.933063 hours!
+Get all employee at 2022-07-25 12:41:00.933326 hours!
+update user at 2022-07-25 12:41:00.933420 hours!
+Login was accessed at 2022-07-25 12:41:01.586979 hours!
+create employee at 2022-07-25 12:41:01.589320 hours!
+create address at 2022-07-25 12:41:01.590661 hours!
+create person at 2022-07-25 12:41:01.591480 hours!
+Get all employee at 2022-07-25 12:41:01.592554 hours!
+update user at 2022-07-25 12:41:01.592856 hours!
+Login was accessed at 2022-07-25 14:09:57.958464 hours!
+create employee at 2022-07-25 14:09:57.958852 hours!
+create address at 2022-07-25 14:09:57.959165 hours!
+create person at 2022-07-25 14:09:57.959303 hours!
+Get all employee at 2022-07-25 14:09:57.959456 hours!
+update user at 2022-07-25 14:09:57.959523 hours!
+Login was accessed at 2022-07-25 14:09:58.711350 hours!
+create employee at 2022-07-25 14:09:58.712562 hours!
+create address at 2022-07-25 14:09:58.713142 hours!
+create person at 2022-07-25 14:09:58.713465 hours!
+Get all employee at 2022-07-25 14:09:58.714089 hours!
+update user at 2022-07-25 14:09:58.714230 hours!
+Login was accessed at 2022-07-25 14:10:35.449925 hours!
+create employee at 2022-07-25 14:10:35.450301 hours!
+create address at 2022-07-25 14:10:35.450610 hours!
+create person at 2022-07-25 14:10:35.450752 hours!
+Get all employee at 2022-07-25 14:10:35.450911 hours!
+update user at 2022-07-25 14:10:35.450978 hours!
+Login was accessed at 2022-07-25 14:10:36.088128 hours!
+create employee at 2022-07-25 14:10:36.089399 hours!
+create address at 2022-07-25 14:10:36.090068 hours!
+create person at 2022-07-25 14:10:36.090416 hours!
+Get all employee at 2022-07-25 14:10:36.090861 hours!
+update user at 2022-07-25 14:10:36.090986 hours!
+Login was accessed at 2022-07-25 14:18:46.893489 hours!
+create employee at 2022-07-25 14:18:46.893851 hours!
+create address at 2022-07-25 14:18:46.894186 hours!
+create person at 2022-07-25 14:18:46.894338 hours!
+Get all employee at 2022-07-25 14:18:46.894500 hours!
+update user at 2022-07-25 14:18:46.894567 hours!
+Login was accessed at 2022-07-25 14:18:48.003098 hours!
+create employee at 2022-07-25 14:18:48.004192 hours!
+create address at 2022-07-25 14:18:48.004735 hours!
+create person at 2022-07-25 14:18:48.005060 hours!
+Get all employee at 2022-07-25 14:18:48.005696 hours!
+update user at 2022-07-25 14:18:48.005900 hours!
+Login was accessed at 2022-07-25 14:20:44.866996 hours!
+create employee at 2022-07-25 14:20:44.868160 hours!
+create address at 2022-07-25 14:20:44.868732 hours!
+create person at 2022-07-25 14:20:44.869156 hours!
+Get all employee at 2022-07-25 14:20:44.869610 hours!
+update user at 2022-07-25 14:20:44.869732 hours!
+Login was accessed at 2022-07-25 14:23:19.289548 hours!
+create employee at 2022-07-25 14:23:19.289922 hours!
+create address at 2022-07-25 14:23:19.290259 hours!
+create person at 2022-07-25 14:23:19.290454 hours!
+Get all employee at 2022-07-25 14:23:19.290652 hours!
+update user at 2022-07-25 14:23:19.290728 hours!
+Login was accessed at 2022-07-25 14:23:20.640841 hours!
+create employee at 2022-07-25 14:23:20.642076 hours!
+create address at 2022-07-25 14:23:20.642685 hours!
+create person at 2022-07-25 14:23:20.643007 hours!
+Get all employee at 2022-07-25 14:23:20.643541 hours!
+update user at 2022-07-25 14:23:20.643664 hours!
+Not Found: /
+Login was accessed at 2022-07-25 14:26:51.349935 hours!
+create employee at 2022-07-25 14:26:51.351114 hours!
+create address at 2022-07-25 14:26:51.351680 hours!
+create person at 2022-07-25 14:26:51.352009 hours!
+Get all employee at 2022-07-25 14:26:51.352423 hours!
+update user at 2022-07-25 14:26:51.352546 hours!
+Login was accessed at 2022-07-25 14:27:32.371705 hours!
+create employee at 2022-07-25 14:27:32.372188 hours!
+create address at 2022-07-25 14:27:32.372680 hours!
+create person at 2022-07-25 14:27:32.372912 hours!
+Get all employee at 2022-07-25 14:27:32.373180 hours!
+update user at 2022-07-25 14:27:32.373286 hours!
+Login was accessed at 2022-07-25 14:27:33.010440 hours!
+create employee at 2022-07-25 14:27:33.011681 hours!
+create address at 2022-07-25 14:27:33.012301 hours!
+create person at 2022-07-25 14:27:33.012651 hours!
+Get all employee at 2022-07-25 14:27:33.013079 hours!
+update user at 2022-07-25 14:27:33.013207 hours!
+Internal Server Error: /api/getallemp
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 146, in get_queryset
+    page = pagination.paginate_queryset(queryset=users, request=request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 196, in paginate_queryset
+    page_size = self.get_page_size(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/pagination.py", line 262, in get_page_size
+    request.query_params[self.page_size_query_param],
+AttributeError: module 'rest_framework.request' has no attribute 'query_params'
+Login was accessed at 2022-07-25 14:30:56.881612 hours!
+create employee at 2022-07-25 14:30:56.882122 hours!
+create address at 2022-07-25 14:30:56.882592 hours!
+create person at 2022-07-25 14:30:56.882825 hours!
+Get all employee at 2022-07-25 14:30:56.883112 hours!
+update user at 2022-07-25 14:30:56.883215 hours!
+Login was accessed at 2022-07-25 14:30:58.113720 hours!
+create employee at 2022-07-25 14:30:58.115876 hours!
+create address at 2022-07-25 14:30:58.117042 hours!
+create person at 2022-07-25 14:30:58.117750 hours!
+Get all employee at 2022-07-25 14:30:58.118651 hours!
+update user at 2022-07-25 14:30:58.118884 hours!
+Login was accessed at 2022-07-25 14:32:50.136203 hours!
+create employee at 2022-07-25 14:32:50.136552 hours!
+create address at 2022-07-25 14:32:50.136846 hours!
+create person at 2022-07-25 14:32:50.136984 hours!
+Get all employee at 2022-07-25 14:32:50.137139 hours!
+update user at 2022-07-25 14:32:50.137205 hours!
+Login was accessed at 2022-07-25 14:32:50.919871 hours!
+create employee at 2022-07-25 14:32:50.921056 hours!
+create address at 2022-07-25 14:32:50.921605 hours!
+create person at 2022-07-25 14:32:50.922006 hours!
+Get all employee at 2022-07-25 14:32:50.922417 hours!
+update user at 2022-07-25 14:32:50.922566 hours!
+Login was accessed at 2022-07-25 14:33:39.608078 hours!
+create employee at 2022-07-25 14:33:39.608597 hours!
+create address at 2022-07-25 14:33:39.609111 hours!
+create person at 2022-07-25 14:33:39.609408 hours!
+Get all employee at 2022-07-25 14:33:39.609831 hours!
+update user at 2022-07-25 14:33:39.610002 hours!
+Login was accessed at 2022-07-25 14:33:40.982336 hours!
+create employee at 2022-07-25 14:33:40.986733 hours!
+create address at 2022-07-25 14:33:40.989165 hours!
+create person at 2022-07-25 14:33:40.991785 hours!
+Get all employee at 2022-07-25 14:33:40.992384 hours!
+update user at 2022-07-25 14:33:40.993902 hours!
+Login was accessed at 2022-07-25 14:33:58.269758 hours!
+create employee at 2022-07-25 14:33:58.270112 hours!
+create address at 2022-07-25 14:33:58.270407 hours!
+create person at 2022-07-25 14:33:58.270543 hours!
+Get all employee at 2022-07-25 14:33:58.270702 hours!
+update user at 2022-07-25 14:33:58.270769 hours!
+Login was accessed at 2022-07-25 14:33:59.047173 hours!
+create employee at 2022-07-25 14:33:59.048351 hours!
+create address at 2022-07-25 14:33:59.048947 hours!
+create person at 2022-07-25 14:33:59.049355 hours!
+Get all employee at 2022-07-25 14:33:59.049790 hours!
+update user at 2022-07-25 14:33:59.049917 hours!
+Login was accessed at 2022-07-25 14:37:17.762616 hours!
+create employee at 2022-07-25 14:37:17.762971 hours!
+create address at 2022-07-25 14:37:17.763274 hours!
+create person at 2022-07-25 14:37:17.763424 hours!
+Get all employee at 2022-07-25 14:37:17.763576 hours!
+update user at 2022-07-25 14:37:17.763642 hours!
+Login was accessed at 2022-07-25 14:37:18.844123 hours!
+create employee at 2022-07-25 14:37:18.845331 hours!
+create address at 2022-07-25 14:37:18.845879 hours!
+create person at 2022-07-25 14:37:18.846280 hours!
+Get all employee at 2022-07-25 14:37:18.846714 hours!
+update user at 2022-07-25 14:37:18.846831 hours!
+Login was accessed at 2022-07-27 07:32:00.142679 hours!
+create employee at 2022-07-27 07:32:00.144466 hours!
+create address at 2022-07-27 07:32:00.146079 hours!
+create person at 2022-07-27 07:32:00.146463 hours!
+Get all employee at 2022-07-27 07:32:00.146913 hours!
+update user at 2022-07-27 07:32:00.147042 hours!
+Login was accessed at 2022-07-27 07:33:08.224929 hours!
+create employee at 2022-07-27 07:33:08.227437 hours!
+create address at 2022-07-27 07:33:08.228697 hours!
+create person at 2022-07-27 07:33:08.229334 hours!
+Get all employee at 2022-07-27 07:33:08.230025 hours!
+update user at 2022-07-27 07:33:08.230208 hours!
+Login was accessed at 2022-07-27 07:33:20.963438 hours!
+create employee at 2022-07-27 07:33:20.964687 hours!
+create address at 2022-07-27 07:33:20.965594 hours!
+create person at 2022-07-27 07:33:20.965992 hours!
+Get all employee at 2022-07-27 07:33:20.966471 hours!
+update user at 2022-07-27 07:33:20.966608 hours!
+Login was accessed at 2022-07-27 07:33:34.306341 hours!
+create employee at 2022-07-27 07:33:34.307564 hours!
+create address at 2022-07-27 07:33:34.308165 hours!
+create person at 2022-07-27 07:33:34.308510 hours!
+Get all employee at 2022-07-27 07:33:34.308984 hours!
+update user at 2022-07-27 07:33:34.309120 hours!
+Login was accessed at 2022-07-27 07:33:48.588228 hours!
+create employee at 2022-07-27 07:33:48.590568 hours!
+create address at 2022-07-27 07:33:48.592050 hours!
+create person at 2022-07-27 07:33:48.592848 hours!
+Get all employee at 2022-07-27 07:33:48.593882 hours!
+update user at 2022-07-27 07:33:48.594145 hours!
+Login was accessed at 2022-07-27 07:34:10.575896 hours!
+create employee at 2022-07-27 07:34:10.578892 hours!
+create address at 2022-07-27 07:34:10.580394 hours!
+create person at 2022-07-27 07:34:10.581311 hours!
+Get all employee at 2022-07-27 07:34:10.582492 hours!
+update user at 2022-07-27 07:34:10.582824 hours!
+Internal Server Error: /api/deleteemp/a36ef32b-fb89-4966-b668-5495d136a1c3
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 173, in delete
+    user = EmployeeUserAuth.objects.filter(id=pk).get()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.DoesNotExist(
+empapp.models.EmployeeUserAuth.DoesNotExist: EmployeeUserAuth matching query does not exist.
+Internal Server Error: /api/deleteemp/a36ef32b-fb89-4966-b668-5495d136a1c3
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 173, in delete
+    user = EmployeeUserAuth.objects.filter(id=pk).get()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.DoesNotExist(
+empapp.models.EmployeeUserAuth.DoesNotExist: EmployeeUserAuth matching query does not exist.
+Login was accessed at 2022-07-27 07:34:37.809092 hours!
+create employee at 2022-07-27 07:34:37.810257 hours!
+create address at 2022-07-27 07:34:37.810836 hours!
+create person at 2022-07-27 07:34:37.811169 hours!
+Get all employee at 2022-07-27 07:34:37.811581 hours!
+update user at 2022-07-27 07:34:37.811703 hours!
+Login was accessed at 2022-07-27 07:34:52.015360 hours!
+create employee at 2022-07-27 07:34:52.016645 hours!
+create address at 2022-07-27 07:34:52.017307 hours!
+create person at 2022-07-27 07:34:52.017634 hours!
+Get all employee at 2022-07-27 07:34:52.018073 hours!
+update user at 2022-07-27 07:34:52.018194 hours!
+Login was accessed at 2022-07-27 07:35:34.628767 hours!
+create employee at 2022-07-27 07:35:34.629939 hours!
+create address at 2022-07-27 07:35:34.630525 hours!
+create person at 2022-07-27 07:35:34.630866 hours!
+Get all employee at 2022-07-27 07:35:34.631282 hours!
+update user at 2022-07-27 07:35:34.631406 hours!
+Login was accessed at 2022-07-27 07:35:48.760708 hours!
+create employee at 2022-07-27 07:35:48.761823 hours!
+create address at 2022-07-27 07:35:48.762508 hours!
+create person at 2022-07-27 07:35:48.762836 hours!
+Get all employee at 2022-07-27 07:35:48.763243 hours!
+update user at 2022-07-27 07:35:48.763363 hours!
+Login was accessed at 2022-07-27 07:36:21.588132 hours!
+create employee at 2022-07-27 07:36:21.589312 hours!
+create address at 2022-07-27 07:36:21.589895 hours!
+create person at 2022-07-27 07:36:21.590224 hours!
+Get all employee at 2022-07-27 07:36:21.590637 hours!
+update user at 2022-07-27 07:36:21.590757 hours!
+Login was accessed at 2022-07-27 07:36:30.282933 hours!
+create employee at 2022-07-27 07:36:30.284111 hours!
+create address at 2022-07-27 07:36:30.284765 hours!
+create person at 2022-07-27 07:36:30.285103 hours!
+Get all employee at 2022-07-27 07:36:30.285529 hours!
+update user at 2022-07-27 07:36:30.285655 hours!
+Internal Server Error: /api/deleteemp/4d791aa02eb84d5e856fd2a79fc85c67
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1292, "Truncated incorrect DOUBLE value: '4d791aa02eb84d5e856fd2a79fc85c67'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 175, in delete
+    user.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/base.py", line 971, in delete
+    return collector.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/deletion.py", line 412, in delete
+    count = qs._raw_delete(using=self.using)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/query.py", line 769, in _raw_delete
+    cursor = query.get_compiler(using).execute_sql(CURSOR)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1292, "Truncated incorrect DOUBLE value: '4d791aa02eb84d5e856fd2a79fc85c67'")
+Login was accessed at 2022-07-27 07:37:49.480110 hours!
+create employee at 2022-07-27 07:37:49.481358 hours!
+create address at 2022-07-27 07:37:49.481964 hours!
+create person at 2022-07-27 07:37:49.482283 hours!
+Get all employee at 2022-07-27 07:37:49.482735 hours!
+update user at 2022-07-27 07:37:49.482854 hours!
+Login was accessed at 2022-07-27 07:38:04.384159 hours!
+create employee at 2022-07-27 07:38:04.386231 hours!
+create address at 2022-07-27 07:38:04.387453 hours!
+create person at 2022-07-27 07:38:04.388091 hours!
+Get all employee at 2022-07-27 07:38:04.388932 hours!
+update user at 2022-07-27 07:38:04.389148 hours!
+Internal Server Error: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1292, "Truncated incorrect DOUBLE value: '25b333f5a1c64047a7ab553e59b9daa4'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 175, in delete
+    user.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/base.py", line 971, in delete
+    return collector.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/deletion.py", line 412, in delete
+    count = qs._raw_delete(using=self.using)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/query.py", line 769, in _raw_delete
+    cursor = query.get_compiler(using).execute_sql(CURSOR)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1292, "Truncated incorrect DOUBLE value: '25b333f5a1c64047a7ab553e59b9daa4'")
+Login was accessed at 2022-07-27 07:38:48.106498 hours!
+create employee at 2022-07-27 07:38:48.108903 hours!
+create address at 2022-07-27 07:38:48.110025 hours!
+create person at 2022-07-27 07:38:48.110719 hours!
+Get all employee at 2022-07-27 07:38:48.111618 hours!
+update user at 2022-07-27 07:38:48.111896 hours!
+Login was accessed at 2022-07-27 07:39:07.849570 hours!
+create employee at 2022-07-27 07:39:07.851586 hours!
+create address at 2022-07-27 07:39:07.852668 hours!
+create person at 2022-07-27 07:39:07.853289 hours!
+Get all employee at 2022-07-27 07:39:07.854077 hours!
+update user at 2022-07-27 07:39:07.854275 hours!
+Internal Server Error: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1292, "Truncated incorrect DOUBLE value: '25b333f5a1c64047a7ab553e59b9daa4'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 174, in delete
+    user.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/base.py", line 971, in delete
+    return collector.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/deletion.py", line 412, in delete
+    count = qs._raw_delete(using=self.using)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/query.py", line 769, in _raw_delete
+    cursor = query.get_compiler(using).execute_sql(CURSOR)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1292, "Truncated incorrect DOUBLE value: '25b333f5a1c64047a7ab553e59b9daa4'")
+Login was accessed at 2022-07-27 07:40:19.474474 hours!
+create employee at 2022-07-27 07:40:19.475755 hours!
+create address at 2022-07-27 07:40:19.476410 hours!
+create person at 2022-07-27 07:40:19.476762 hours!
+Get all employee at 2022-07-27 07:40:19.477191 hours!
+update user at 2022-07-27 07:40:19.477325 hours!
+Internal Server Error: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1292, "Truncated incorrect DOUBLE value: '25b333f5a1c64047a7ab553e59b9daa4'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 174, in delete
+    user.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/base.py", line 971, in delete
+    return collector.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/deletion.py", line 412, in delete
+    count = qs._raw_delete(using=self.using)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/query.py", line 769, in _raw_delete
+    cursor = query.get_compiler(using).execute_sql(CURSOR)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1292, "Truncated incorrect DOUBLE value: '25b333f5a1c64047a7ab553e59b9daa4'")
+Not Found: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4/
+Not Found: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4/
+Not Found: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4/
+Login was accessed at 2022-07-27 07:41:56.746222 hours!
+create employee at 2022-07-27 07:41:56.747414 hours!
+create address at 2022-07-27 07:41:56.748102 hours!
+create person at 2022-07-27 07:41:56.748473 hours!
+Get all employee at 2022-07-27 07:41:56.748904 hours!
+update user at 2022-07-27 07:41:56.749029 hours!
+Not Found: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4/
+Not Found: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4/
+Not Found: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4/
+Not Found: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4/
+Login was accessed at 2022-07-27 07:42:51.760291 hours!
+create employee at 2022-07-27 07:42:51.761496 hours!
+create address at 2022-07-27 07:42:51.762049 hours!
+create person at 2022-07-27 07:42:51.762418 hours!
+Get all employee at 2022-07-27 07:42:51.762826 hours!
+update user at 2022-07-27 07:42:51.762944 hours!
+Not Found: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4/
+Internal Server Error: /api/deleteemp/25b333f5a1c64047a7ab553e59b9daa4
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1292, "Truncated incorrect DOUBLE value: '25b333f5a1c64047a7ab553e59b9daa4'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/empapp/views.py", line 174, in delete
+    user.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/base.py", line 971, in delete
+    return collector.delete()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/deletion.py", line 412, in delete
+    count = qs._raw_delete(using=self.using)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/query.py", line 769, in _raw_delete
+    cursor = query.get_compiler(using).execute_sql(CURSOR)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/keerthana/PycharmProjects/matc_django/matc/venv/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1292, "Truncated incorrect DOUBLE value: '25b333f5a1c64047a7ab553e59b9daa4'")
+Login was accessed at 2022-07-27 07:45:05.690901 hours!
+create employee at 2022-07-27 07:45:05.692171 hours!
+create address at 2022-07-27 07:45:05.693073 hours!
+create person at 2022-07-27 07:45:05.693449 hours!
+Get all employee at 2022-07-27 07:45:05.693866 hours!
+update user at 2022-07-27 07:45:05.693982 hours!
+Login was accessed at 2022-07-27 07:45:13.341195 hours!
+create employee at 2022-07-27 07:45:13.342393 hours!
+create address at 2022-07-27 07:45:13.343000 hours!
+create person at 2022-07-27 07:45:13.343378 hours!
+Get all employee at 2022-07-27 07:45:13.343814 hours!
+update user at 2022-07-27 07:45:13.343939 hours!
+Login was accessed at 2022-07-27 08:56:02.699024 hours!
+create employee at 2022-07-27 08:56:02.700301 hours!
+create address at 2022-07-27 08:56:02.701006 hours!
+create person at 2022-07-27 08:56:02.701377 hours!
+Get all employee at 2022-07-27 08:56:02.701812 hours!
+update user at 2022-07-27 08:56:02.701941 hours!
+Login was accessed at 2022-07-27 08:57:04.532625 hours!
+create employee at 2022-07-27 08:57:04.534867 hours!
+create address at 2022-07-27 08:57:04.536049 hours!
+create person at 2022-07-27 08:57:04.536786 hours!
+Get all employee at 2022-07-27 08:57:04.537791 hours!
+update user at 2022-07-27 08:57:04.538073 hours!
+Login was accessed at 2022-07-27 08:57:11.802939 hours!
+create employee at 2022-07-27 08:57:11.804136 hours!
+create address at 2022-07-27 08:57:11.804741 hours!
+create person at 2022-07-27 08:57:11.805120 hours!
+Get all employee at 2022-07-27 08:57:11.805568 hours!
+update user at 2022-07-27 08:57:11.805693 hours!
